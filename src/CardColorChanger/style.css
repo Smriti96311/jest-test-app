@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    height:600px;
+    width: 600px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap ;
+    background-color: #efefee;
+}
+
+.cards {
+    height:450px;
+    width: 450px;
+    margin: 15px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: #ffff;
+}
+
+.btns {
+    flex-direction: row;
+    flex-wrap: wrap ;
+    background-color: #dddd;
+    padding-inline:  10px;
+}
+
+#red {
+    background-color: red;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#blue {
+    background-color: blue;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#yellow {
+    background-color: yellow;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#green {
+    background-color: green;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#reset {
+    background-color: orange;
+    color: white;
+    border-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.white {
+    background-color: white;
+}
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
